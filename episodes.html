@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orhan Ghazi - Episodes</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0b0b;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background: #111;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 10;
+    }
+
+    header h1 {
+      color: gold;
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+    }
+
+    nav a, .dropbtn {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #222;
+      min-width: 160px;
+      z-index: 100;
+      border-radius: 6px;
+    }
+
+    .dropdown-content a {
+      color: white;
+      padding: 10px 15px;
+      display: block;
+      text-decoration: none;
+    }
+
+    .dropdown-content a:hover {
+      background-color: gold;
+      color: black;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropbtn:hover {
+      color: gold;
+    }
+
+    main {
+      padding: 100px 50px 50px 50px;
+    }
+
+    .episode {
+      background: #161616;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .episode:hover {
+      border: 1px solid gold;
+    }
+
+    .episode h2 {
+      color: gold;
+      margin-top: 0;
+    }
+
+    .episode p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #ccc;
+    }
+
+    .watch-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: gold;
+      color: black;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .watch-btn:hover {
+      background: white;
+      color: black;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #aaa;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        margin-top: 10px;
+        flex-wrap: wrap;
+      }
+
+      main {
+        padding: 120px 20px 20px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ORHAN GHAZI</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Episodes ▼</button>
+        <div class="dropdown-content">
+          <a href="https://pixeldrain.com/u/aw4WWwi2">Episode 1</a>
+          <a href="https://pixeldrain.com/u/m8aN2fdk">Episode 2</a>
+          <a href="https://pixeldrain.com/u/ABqgMoN4">Episode 3</a>
+          <a href="https://pixeldrain.com/u/5ajgeN2p">Episode 4</a>
+          <a href="https://pixeldrain.com/u/sqTp9fSW">Episode 5</a>
+          <a href="https://pixeldrain.com/u/15ayux7A">Episode 6</a>
+          <a href="https://pixeldrain.com/u/dbVf8uPU">Episode 7</a>
+          <a href="https://pixeldrain.com/u/V1e9qSsT">Episode 8</a>
+          <a href="https://pixeldrain.com/u/jLKZUd15">Episode 9</a>
+          <a href="https://pixeldrain.com/u/1PDKqwYe">Episode 10</a>
+          <a href="https://pixeldrain.com/u/1hP9wJdK">Episode 11</a>
+          <a href="https://pixeldrain.com/u/zJzdGW9f">Episode 12</a>
+          <a href="https://pixeldrain.com/u/B2DN3y7r">Episode 13</a>
+          <a href="https://pixeldrain.com/u/1nvNXENs">Episode 14</a>
+        </div>
+      </div>
+      <a href="cast.html">Cast</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="ep1" class="episode">
+      <h2>Episode 1: Rise of a Leader</h2>
+      <p>Orhan Ghazi begins his journey, facing his first political and military challenges as the young leader of the Ottoman Empire.</p>
+      <a href="#" class="watch-btn">▶ Watch Now</a>
+    </section>
+
+    <section id="ep2" class="episode">
+      <h2>Episode 2: The Battle Begins</h2>
+      <p>Orhan Ghazi trains his army and confronts the neighboring enemies in an epic battle that will define his leadership.</p>
+      <a href="#" class="watch-btn">▶ Watch Now</a>
+    </section>
+
+    <section id="ep3" class="episode">
+      <h2>Episode 3: Alliances and Betrayal</h2>
+      <p>New alliances are formed, but betrayal threatens the stability of the empire and Orhan’s leadership.</p>
+      <a href="#" class="watch-btn">▶ Watch Now</a>
+    </section>
+
+    <section id="ep4" class="episode">
+      <h2>Episode 4: Expansion of the Empire</h2>
+      <p>The empire grows stronger under Orhan Ghazi, with victories that cement his legacy and challenge his enemies.</p>
+      <a href="#" class="watch-btn">▶ Watch Now</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Orhan Ghazi Web Series | Designed for Website</p>
+  </footer>
+
+</body>
+</html>
